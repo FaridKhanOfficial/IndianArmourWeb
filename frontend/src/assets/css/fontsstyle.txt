@@ -1,0 +1,8 @@
+Headings & Titles (Poppins, Lato, Rubik)
+Poppins: 600 (SemiBold) or 700 (Bold) → Ensures strong emphasis
+Lato: 700 (Bold) → Balances elegance with authority
+Rubik: 500 (Medium) or 700 (Bold) → Offers a modern and readable look
+Body Text & Content (Open Sans, Roboto, Nunito)
+Open Sans: 400 (Regular) → Best for readability
+Roboto: 400 (Regular) or 500 (Medium) → Gives a neutral and professional feel
+Nunito: 400 (Regular) → Slightly rounded and easy on the eyes

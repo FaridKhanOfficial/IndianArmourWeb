@@ -1,0 +1,3 @@
+Main Color : #221e58
+
+Call To Action Color : #b64509
