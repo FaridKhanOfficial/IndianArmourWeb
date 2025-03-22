@@ -128,7 +128,7 @@
         .company-introduction{
             margin-top: 220px;
             align-self: flex-start;
-            left: 50px;
+            left: -10px;
         }
  
     }
@@ -158,6 +158,10 @@
 
         .company-logo{
             width: 60%;
+        }
+
+        .section-title{
+            font-size: 1.4rem;
         }
     }
 
