@@ -14,13 +14,14 @@ header{
     width: 100%;
     background-color:#ffffff;
     position: fixed;
-    top: 45px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     z-index: 99999;
     height: 100px;
+    margin-top: 50px;
 }
+
 
 .logo{
     width: 70px;
@@ -117,4 +118,11 @@ header{
   
   .social-link:hover {
     color: #da3300;
+  }
+
+
+  @media (max-width:900px) {
+        header{
+            height: 80px;
+        }
   }
