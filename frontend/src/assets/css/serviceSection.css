@@ -1,128 +1,134 @@
-/* Rubik Font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+   /* Rubik Font */
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-/* Lato Font */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+   /* Lato Font */
+   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   .services-area {
+       position: relative;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       padding: 30px;
+       gap: 30px;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .service-section-intro{
+       width: 75%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       font-family: "Rubik", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 500;
+       font-style: normal;
+       flex-wrap: wrap;
+       gap: 30px;
+   }
+   
+   .view-services{
+       background: #b64509;
+       padding: 10px 40px 10px 40px;
+       border: none;
+       color: white;
+       cursor: pointer;
+   }
+   
+   .services-link{
+       text-decoration: none;
+   }
+   
+   .services{
+       width: 90%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       padding: 30px;
+       gap: 20px;
+   }
+   
+   .service-box{
+       width: 300px;
+       background: #ffffffa8;
+       text-decoration: none;
+       border: 1px solid rgba(0, 0, 0, 0.185);
+       border-bottom: 9px solid #b64509;
+   
+   }
+   
+   .service-img{
+       width: 100%;
+   
+   
+   }
+   
+   .service-details{
+       padding: 20px;
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+   }
+   
+   .service-title{
+       color: rgb(0, 0, 0);
+       font-family: "Lato", sans-serif;
+       font-weight: 700;
+       font-style: normal;
+   }
+   
+   .service-description{
+       color: rgba(0, 0, 0, 0.541);
+       font-family: "Lato", sans-serif;
+       font-weight: 700;
+       font-style: normal;
+   }   
+   
+   .title{
+       font-size: 2.5rem;
+   }
+   
+   
+   @media (max-width: 595px) {
+       .service-section-intro{
+           position: relative;
+           flex-wrap: nowrap;
+           margin-top: 100px;
+           width: 100%;
+       }
+   
+       .description{
+           font-size: 0.8rem;
+       }
+   
+       .title{
+           font-size: 1.2rem;
+       }
+   
+       .services{
+           width: 100%;
+       }
+   
+       .service-title{
+           font-size: 1.3rem;
+       }
+   
+       .service-description{
+           font-size: 0.8rem;
+       }
+   
+       .service-box{
+           width: 220px;
+       }
 
-.services-area {
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-}
-
-.service-section-intro{
-    width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.view-services{
-    background: #b64509;
-    padding: 10px 40px 10px 40px;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-.services-link{
-    text-decoration: none;
-}
-
-.services{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    gap: 20px;
-}
-
-.service-box{
-    width: 300px;
-    background: #ffffffa8;
-    text-decoration: none;
-    border: 1px solid rgba(0, 0, 0, 0.185);
-    border-bottom: 9px solid #b64509;
-
-}
-
-.service-img{
-    width: 100%;
-
-
-}
-
-.service-details{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.service-title{
-    color: rgb(0, 0, 0);
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.service-description{
-    color: rgba(0, 0, 0, 0.541);
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}   
-
-.title{
-    font-size: 2.5rem;
-}
-
-
-@media (max-width: 595px) {
-    .service-section-intro{
-        position: relative;
-        flex-wrap: nowrap;
-    }
-
-    .description{
-        font-size: 0.8rem;
-    }
-
-    .title{
-        font-size: 1.2rem;
-    }
-
-    .services{
-        width: 100%;
-    }
-
-    .service-title{
-        font-size: 1.3rem;
-    }
-
-    .service-description{
-        font-size: 0.8rem;
-    }
-
-    .service-box{
-        width: 220px;
-    }
-}
+       .view-services{
+        padding: 10px;
+       }
+   }
